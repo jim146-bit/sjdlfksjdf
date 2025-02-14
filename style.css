@@ -19,17 +19,22 @@ body {
     background: var(--bg-color);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* Mueve el contenido más arriba */
     flex-direction: column;
     height: 100vh;
+    padding-top: 20px; /* Agrega un poco de espacio arriba */
 }
 
 h1 {
     font-family: "Marck Script", serif;
     text-align: center;
-    font-size: 60px;
-    margin-bottom: 50px;
+    font-size: 80px;
+    margin-bottom: -30px;
     color: #444;
+    position: relative;
+    top: -40px; /* Mueve el texto más arriba */
+}
+
 }
 
 .container {
