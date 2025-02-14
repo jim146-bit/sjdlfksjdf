@@ -19,7 +19,7 @@ body {
     background: var(--bg-color);
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Mueve el contenido más arriba */
+    justify-content: center;
     flex-direction: column;
     height: 100vh;
 }
@@ -28,7 +28,7 @@ h1 {
     font-family: "Marck Script", serif;
     text-align: center;
     font-size: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 180px;
     color: #444;
 }
 
