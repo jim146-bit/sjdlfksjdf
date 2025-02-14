@@ -29,10 +29,8 @@ h1 {
     font-family: "Marck Script", serif;
     text-align: center;
     font-size: 80px;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
     color: #444;
-    position: relative;
-    top: -40px; /* Mueve el texto más arriba */
 }
 
 }
